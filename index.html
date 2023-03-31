@@ -4,83 +4,10 @@
 	<title>AIWORKCN.COM-用好人工智能-hello AI world</title>
 	<meta name="description" content="AIWORKCN.COM是一个提供中国人工智能产品和应用信息的社区平台，信息来源于AI大模型。用户可以在该网站上获取人工智能相关的产品应用信息，并与其他人工智能领域的从业者进行交流与合作。">
 	<meta name="keywords" content="人工智能,企业服务,产品应用">
-	<style>
-		body {
-			background-color: #1a1a1a;
-			color: white;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			margin: 0;
-			padding: 0;
-		}
-		thead {
-			position: sticky;
-			top: 0;
-		}
-		table {
-			border-collapse: collapse;
-			margin: 20px auto;
-			width: 100%;
-			max-width: 1300px;
-			min-width: 500px;
-		}
-		th, td {
-			border: 1px solid grey;
-			padding: 10px;
-			text-align: left;
-		}
-		th {
-			background-color: #333;
-			font-weight: bold;
-		}
-		tr:nth-child(even) {
-			background-color: #444;
-		}
-		tr:hover {
-			background-color: #555;
-		}
-		a[href^="http"]:not([href*="YourDomain"]) {
-			color: white;
-			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-		.star {
-			position: fixed;
-			background-color: white;
-			border-radius: 50%;
-			animation: twinkle 1s infinite;
-		}
-		@keyframes twinkle {
-			0% {
-				opacity: 1;
-			}
-			50% {
-				opacity: 0.5;
-			}
-			100% {
-				opacity: 1;
-			}
-		}
-	</style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-	<script>
-		function createStar() {
-			const star = document.createElement('div');
-			star.classList.add('star');
-			star.style.top = Math.random() * window.innerHeight + 'px';
-			star.style.left = Math.random() * window.innerWidth + 'px';
-			star.style.width = Math.random() * 4 + 'px';
-			star.style.height = star.style.width;
-			document.body.appendChild(star);
-			setTimeout(() => {
-				star.remove();
-			}, 5000);
-		}
-		setInterval(createStar, 100);
-	</script>
 	<h1 style="text-align: center; margin: 20px 0;">hello <mark>AI</mark> world</h1>
 	<h1 style="text-align: center; margin: 20px 0;">帮助我们·用·好·人工智能</h1>
 	<table>
