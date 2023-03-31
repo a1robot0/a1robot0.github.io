@@ -1,0 +1,58 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+thead {
+    position: sticky;
+    top: 0;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1300px;
+    min-width: 500px;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #444;
+}
+tr:hover {
+    background-color: #555;
+}
+a[href^="http"]:not([href*="YourDomain"]) {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.star {
+    position: fixed;
+    background-color: white;
+    border-radius: 50%;
+    animation: twinkle 1s infinite;
+}
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
